@@ -20,9 +20,12 @@
 .bg{
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-
+  left: 50%;
+  width: 1920px!important;
+  transform: translateX(-50%);
+      height: 900px;
+    overflow: hidden;
+    object-fit: cover;
 }
     * {
       box-sizing: border-box;
@@ -119,6 +122,7 @@
         border-color var(--transition),
         backdrop-filter var(--transition),
         box-shadow var(--transition);
+        color: #fff;
     }
 
     .site-header.scrolled {
@@ -126,6 +130,7 @@
       border-bottom: 1px solid rgba(17, 24, 39, 0.06);
       backdrop-filter: blur(16px);
       box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+      color: var(--text);
     }
 
     .nav {
@@ -136,6 +141,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 20px;
+      
     }
 
     .brand {
@@ -160,7 +166,7 @@
       display: flex;
       gap: 20px;
       align-items: center;
-      color: var(--text-muted);
+      /* color: var(--text-muted); */
       font-size: 0.95rem;
     }
 
@@ -185,7 +191,8 @@
 
     .nav-links a:hover,
     .nav-links a:focus-visible {
-      color: var(--text);
+      /* color: var(--text); */
+      color: #2CA3B7;
       transform: translateY(-1px);
     }
 
@@ -275,6 +282,7 @@
     }
 
     .hero-copy h1 {
+      color: #fff;
       margin: 36px 0 80px;
       font-size: clamp(4.2rem, 6vw, 5.3rem);
       line-height: 1.2;
@@ -501,7 +509,7 @@
       bottom: -48px;
       left: 50%;
       transform: translateX(-50%);
-      color: var(--text-muted);
+      color: #fff;
       font-size: 0.84rem;
       display: flex;
       flex-direction: column;
@@ -1586,7 +1594,12 @@
       .skills {
         grid-template-columns: 1fr;
       }
-
+.bg{
+            display: none;
+      }
+      .site-header {
+        color: var(--text);
+    }
       .hero {
         padding-top: 112px;
       }
@@ -1626,6 +1639,7 @@
 
       .site-header {
         padding: 14px 0;
+        color: var(--text);
       }
 
       .nav {
@@ -1650,7 +1664,7 @@
         flex-direction: column;
         align-items: flex-start;
       }
-
+    
       .hero {
         min-height: auto;
         padding-top: 104px;
