@@ -1148,7 +1148,7 @@
     }
 
     .modal-dialog.modal-type-poster .modal-hero-media {
-      aspect-ratio: 3 / 4;
+      aspect-ratio: 3 / 4.1;
       max-height: min(74vh, 860px);
     }
 
