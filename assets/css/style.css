@@ -151,6 +151,7 @@
       display: inline-flex;
       align-items: center;
       gap: 12px;
+        margin-left:60px;
     }
 
     .brand::before {
@@ -278,7 +279,7 @@
       z-index: 2;
       justify-self: stretch;
       text-align: left;
-      padding-left: 40px;
+      padding-left: 60px;
     }
 
     .hero-copy h1 {
