@@ -21,7 +21,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 100%!important;
+  width: 1920px!important;
   transform: translateX(-50%);
       height: 900px;
     overflow: hidden;
@@ -1131,7 +1131,9 @@
       display: block;
     }
 
-
+.som3{
+  width: 100%;
+}
 
     /* ===== Modal gallery variants: poster / banner / cardnews ===== */
     .modal-dialog.modal-type-poster {
@@ -1148,7 +1150,7 @@
     }
 
     .modal-dialog.modal-type-poster .modal-hero-media {
-      aspect-ratio: 3 / 4.1;
+      aspect-ratio: 3 / 4.2;
       max-height: min(74vh, 860px);
     }
 
